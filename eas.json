@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 7.1.1",
+    "promptToConfigurePushNotifications": false,
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": false
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

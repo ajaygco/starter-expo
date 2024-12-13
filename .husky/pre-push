@@ -1,0 +1,2 @@
+CI=true bun run lint
+CI=true bun run test

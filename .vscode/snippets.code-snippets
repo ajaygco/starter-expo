@@ -1,0 +1,18 @@
+{
+  // React
+  "New React Component": {
+    "prefix": "nrc",
+    "scope": "javascript,javascriptreact",
+    "description": "New React Component",
+    "body": [
+      "// Modules",
+      "import React from \"react\";",
+      "",
+      "// Component",
+      "export const ${1:ComponentName} = () => {",
+      "  return null;",
+      "};",
+      "",
+    ],
+  },
+}

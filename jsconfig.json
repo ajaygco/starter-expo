@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "lib": ["ES5"],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
